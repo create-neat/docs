@@ -14,4 +14,23 @@ export const sidebar = {
       ],
     },
   ],
+  "/deep/": [
+    {
+      text: "深入架构",
+      items: [
+        {
+          text: "预设处理",
+          link: "/deep/pre-processing",
+        },
+        {
+          text: "生成器处理",
+          link: "/deep/generator-processing",
+        },
+        {
+          text: "文件树处理",
+          link: "/deep/file-tree-processing",
+        },
+      ],
+    },
+  ],
 };
